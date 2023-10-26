@@ -1,18 +1,25 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React, { useEffect } from 'react';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
+import { fetchGreeting } from '../redux/slice';
 
-function Greetings() {
-  const [greeting, setGreeting] = useState('');
+const Greeting = ({ greeting, fetchGreeting }) => {
   useEffect(() => {
-    axios.get('http://127.0.0.1:3000/hello/index')
-      .then((response) => setGreeting(response.data.content));
-  }, []);
+    fetchGreeting();
+  }, [fetchGreeting]);
 
   return (
-    <div>
-      <h1>{greeting}</h1>
-    </div>
+    <h1>{greeting}</h1>
   );
-}
+};
 
-export default Greetings;
+const mapStateToProps = (state) => ({
+  greeting: state.greeting,
+});
+
+Greeting.propTypes = {
+  greeting: PropTypes.string.isRequired,
+  fetchGreeting: PropTypes.func.isRequired,
+};
+
+export default connect(mapStateToProps, { fetchGreeting })(Greeting);
