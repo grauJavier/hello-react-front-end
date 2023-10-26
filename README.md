@@ -11,13 +11,17 @@
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 Hello React Front-End](#about-project)
-  - [🛠 Project Requirements](#project-requirements)
+  - [🛠 Built With](#-built-with)
+    - [Technologies](#technologies)
+    - [Key Features](#key-features)
+  - [🏁 Project Requirements](#project-requirements)
   - [🚀 Getting Started](#getting-started)
     - [💻 API Endpoints](#integration-with-hello-rails-back-end)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Run the Project](#run-the-project)
   - [👥 Author](#authors)
+  - [🔭 Future Features](#-future-features)
   - [🔭 Issues](#issues)
   - [🤝 Contributing](#contributing)
   - [⭐️ Show Your Support](#️support)
@@ -29,7 +33,7 @@
 
 *Hello Rails Front-End* is a Rails API app that provides random greetings in different laguages through an API endpoint.
 
-## 🛠 Project Requirements <a name="project-requirements"></a>
+## 🏁 Project Requirements <a name="project-requirements"></a>
 
 - Make a React app named 'hello-react-front-end'.
 - Start the project with Git.
@@ -37,6 +41,40 @@
 - Make a 'Greeting' part that shows a greeting and connect it to the 'App' part as a route.
 - Make a store, an action, and a reducer that connect to your API to get a random greeting.
 - Show the random greeting in your 'Greeting' part.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Technologies <a name="technologies"></a>
+
+<details>
+  <summary>Technologies</summary>
+  <ul>
+    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
+    <li><a href="https://reactjs.org/">React</a></li>
+    <li><a href="https://webpack.js.org/">Webpack</a></li>
+    <li><a href="https://redux.js.org/">Redux</a></li>
+  </ul>
+</details>
+<details>
+<summary>Linters</summary>
+  <ul>
+    <li><a href="https://rubocop.org/">Rubocop</a></li>
+    <li><a href="https://eslint.org/">ESlint</a></li>
+    <li><a href="https://stylelint.io/">Stylelint</a></li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
+
+- [x] *Combining Ruby on Rails and React*
+- [x] *Creating an API for Random Greetings*
+- [x] *Managing State with Redux*
+- [x] *Clear and Organized Documentation*
+- [x] *Checking Code Quality with Linting*
+- [x] *Using a Postgres Database*
+- [x] *Tracking Changes with Git*
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Getting Started <a name="getting-started"></a>
 
@@ -89,9 +127,9 @@ npm start
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Issues <a name="issues"></a>
+## 🔭 Future Features <a name="future-features"></a>
 
-Find a bug or have a feature request? [Open a new issue](https://github.com/grauJavier/hello-react-front-end/issues) here on GitHub.
+- [ ] *EVEN MORE Greetings!*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,6 +147,6 @@ If you find this project helpful, please consider starring the repository. Your 
 
 ## 📝 License <a name="license"></a>
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/grauJavier/hello-react-front-end/blob/feature/add-react/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/grauJavier/hello-react-front-end/blob/feature/add-react/LICENSE) file for details.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
