@@ -5,7 +5,8 @@ function Greetings() {
   const [greeting, setGreeting] = useState('');
   useEffect(() => {
     axios.get('http://127.0.0.1:3000/hello/index')
-    .then((response) => setGreeting(response.data.content))}, []);
+      .then((response) => setGreeting(response.data.content));
+  }, []);
 
   return (
     <div>
