@@ -147,6 +147,6 @@ If you find this project helpful, please consider starring the repository. Your 
 
 ## 📝 License <a name="license"></a>
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/grauJavier/hello-react-front-end/blob/feature/add-react/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/grauJavier/hello-react-front-end/blob/feature/add-redux/LICENSE) file for details.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
